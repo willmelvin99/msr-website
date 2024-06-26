@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+html {
+    background-image: url('man salmon river.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: #ff9100;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+li {
+    padding: 25px;
+    color: #000;
+    font-family: 'montserrat', sans-serif;
+    letter-spacing: 3px;
+    list-style-type: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #000;
+    transition: all 0.2s;
+}
+
+li a {
+    color: #000;
+}
+
+li:hover a {
+    color: rgb(202, 81, 0);
+}
+
+li:hover {
+    transform: scale(105%);
+}
+
+a {
+    text-decoration-line: none;
+    transition: all 0.2s;
+}
+
+.box {
+    width: 70%;
+    margin: auto;
+    display: block;
+    height: 70vh;
+    margin-top: 10vh;
+    background-color: rgba(0, 0, 0, 0.199);
+    padding: 3em;
+    font-family: 'montserrat';
+    font-size: small;
+}
+
+h1 {
+    font-family: 'montserrat';
+    font-size: 25px;
+}
+
+
+/*w3schools*/
+
+.gallery-e-container {
+    margin: 5px;
+    border: 1px solid #ff9100;
+    float: left;
+    width: 300px;
+    height: 350px;
+    background-color: #ff9100;
+    overflow: hidden;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: auto;
+    height: 300px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.band-title {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.nav-image{
+    width: 100vw;
+}
+
+.nav-image-container{
+    height: 90vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.inspiration-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 60vh;
+    background-color: black;
+}
+
+.inspiration-text-container h1{
+    font-family: 'montserrat';
+    font-size: 3em;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.inspiration-container iframe{
+    margin-left: -50px;
+}
+
+.nav-text{
+    width: 450px;
+    background-color: #00000073;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+
+.nav-text h1{
+    font-size: 'montserrat';
+    font-size: 2em;
+    letter-spacing: 2px;
+    padding: 50px;
+    color: #fff;
+    text-transform: uppercase;
+}

@@ -1,0 +1,39 @@
+body {background-image: url(OCvideo.739609175.25063.mp4);}
+header{
+    background-color: #fff;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+li{
+    padding: 25px;
+    color: #000;
+    font-family: 'montserrat', sans-serif;
+    letter-spacing: 3px;
+    list-style-type: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px #000;
+}
+a{
+    text-decoration-line: none;
+}
+.box{
+    width: 70%;
+    margin: auto;
+    display: block;
+    height: 70vh;
+    margin-top: 10vh;
+    background-color: rgba(0, 0, 0, 0.199);    
+}
+
